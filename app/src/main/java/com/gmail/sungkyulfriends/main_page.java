@@ -12,5 +12,3 @@ public class main_page extends AppCompatActivity {
         setContentView(R.layout.activity_main_page);
     }
 }
-
-//깃허브에 수정사항이 잘 올라갔는지 테스트
