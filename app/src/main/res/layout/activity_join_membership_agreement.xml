@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -149,6 +150,7 @@
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/next_button"
             android:layout_width="99dp"
             android:layout_height="43dp"
             android:text="다음"

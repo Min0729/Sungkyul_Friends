@@ -1,5 +1,3 @@
-//챗 GPT 참고
-
 package com.gmail.sungkyulfriends;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class class_main_friend extends AppCompatActivity {
 
@@ -30,5 +29,15 @@ public class class_main_friend extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        ImageView back_arrow = findViewById(R.id.back_arrow);
+        back_arrow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(class_main_friend.this, main_page.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

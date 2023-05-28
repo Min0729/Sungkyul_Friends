@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -43,11 +44,13 @@
         android:layout_marginTop="60dp">
 
         <ImageView
+            android:id="@+id/profile"
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:src="@drawable/ic_account_circle_130"/>
 
         <ImageView
+            android:id="@+id/chat_button"
             android:layout_width="55dp"
             android:layout_height="55dp"
             android:src="@drawable/chat_bubble"
@@ -173,7 +176,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/main_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/main_page_icon"/>
@@ -183,7 +187,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/alarm_page_button"
             android:layout_width="75dp"
             android:layout_height="62dp"
             android:background="@drawable/alarm_page_icon"/>
@@ -193,7 +198,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/matching_list_button"
             android:layout_width="60dp"
             android:layout_height="62dp"
             android:background="@drawable/matching_list_icon"/>
@@ -203,7 +209,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/mypage_button"
             android:layout_width="70dp"
             android:layout_height="58dp"
             android:background="@drawable/mypage_icon"/>

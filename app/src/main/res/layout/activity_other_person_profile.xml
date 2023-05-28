@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -240,6 +241,7 @@
             android:layout_marginTop="10dp"/>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/more_review_button"
             android:layout_width="84dp"
             android:layout_height="33dp"
             android:background="@drawable/round_shape"

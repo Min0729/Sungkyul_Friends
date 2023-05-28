@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -170,6 +171,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/choice_interest_button"
             android:layout_width="308dp"
             android:layout_height="38dp"
             android:background="@drawable/round_shape"
@@ -188,6 +190,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/retouch_profile_button"
         android:layout_width="99dp"
         android:layout_height="43dp"
         android:background="@drawable/round_shape"

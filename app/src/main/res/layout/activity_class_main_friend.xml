@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -71,12 +72,12 @@
             android:id="@+id/major">
 
 
-          <Spinner
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:entries="@array/major_type"
-              android:gravity="right"/>
-                
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/major_type"
+                android:gravity="right"/>
+
 
         </LinearLayout>
 
@@ -256,7 +257,7 @@
                     android:layout_height="wrap_content"
                     android:text="상관 없음"/>
 
-          </RadioGroup>
+            </RadioGroup>
 
         </LinearLayout>
 

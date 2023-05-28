@@ -39,6 +39,7 @@
             android:src="@drawable/finish_school_certification"/>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/go_main_button"
             android:layout_width="147dp"
             android:layout_height="51dp"
             android:background="@drawable/round_shape"

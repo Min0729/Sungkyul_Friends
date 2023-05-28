@@ -17,6 +17,7 @@
         android:paddingRight="50dp">
 
         <ImageView
+            android:id="@+id/back_arrow"
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:scaleType="center"
@@ -46,7 +47,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/main_button"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/main_page_icon"/>
@@ -56,7 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/alarm_page_button"
             android:layout_width="75dp"
             android:layout_height="62dp"
             android:background="@drawable/alarm_page_icon"/>
@@ -66,7 +69,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/matching_list_button"
             android:layout_width="60dp"
             android:layout_height="62dp"
             android:background="@drawable/matching_list_icon"/>
@@ -76,7 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/mypage_button"
             android:layout_width="70dp"
             android:layout_height="58dp"
             android:background="@drawable/mypage_icon"/>
@@ -110,6 +115,7 @@
             android:background="#d9d9d9"/>
 
         <TextView
+            android:id="@+id/class_matching_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="소프트웨어 공학 (친구)"

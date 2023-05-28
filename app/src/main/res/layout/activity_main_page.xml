@@ -37,11 +37,13 @@
         android:layout_marginBottom="25dp">
 
         <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/senior_matching_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/match_people_main_button"/>
 
         <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/class_matching_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/same_class_people_main_button"/>
@@ -61,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/main_page_icon"/>
@@ -71,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/alarm_page_button"
             android:layout_width="75dp"
             android:layout_height="62dp"
             android:background="@drawable/alarm_page_icon"/>
@@ -81,7 +84,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/matching_list_button"
             android:layout_width="60dp"
             android:layout_height="62dp"
             android:background="@drawable/matching_list_icon"/>
@@ -91,7 +95,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
 
-        <androidx.constraintlayout.utils.widget.ImageFilterButton
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/mypage_button"
             android:layout_width="70dp"
             android:layout_height="58dp"
             android:background="@drawable/mypage_icon"/>
